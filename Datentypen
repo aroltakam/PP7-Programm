@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+int main() {
+    int num = 2;
+    float decimal = 6.3;
+    char letter = 'Z';
+    bool flag = true;
+
+    printf("Integer: %d\n", num);
+    printf("Float: %f\n", decimal);
+    printf("Character: %c\n", letter);
+    printf("Boolean: %s\n", flag ? "true" : "false");
+
+    return 0;
+}
